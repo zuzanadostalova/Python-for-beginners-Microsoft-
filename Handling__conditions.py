@@ -4,10 +4,16 @@
 
 # Tip: try to play with the code, add a sentence about taxes etc.
 
-price = 2
-if price >= 1.00:
-    tax = .07
-    print("Tax is: " +  str(tax))
+# price = 2
+# if price >= 1.00:
+#     tax = .07
+#     print("Tax is: " +  str(tax))
+# else:
+#     tax = 0
+#     print("Tax is: " + str(tax))
+
+country = "CANADA"
+if country.lower() == "canada":
+    print("Oh look a Canadian")
 else:
-    tax = 0
-    print("Tax is: " + str(tax))
+    print("you are not from Canada")
