@@ -25,7 +25,7 @@ else:
     print("Something else went wrong")
 finally:
     print("This is our cleanup code")
-# REPAIRED runtime eror...closed road / you need to build a bridge to get over a river 
+# REPAIRED runtime eror...closed road / you need to build a bridge to get over a river
 
 # x = 206
 # y = 42
