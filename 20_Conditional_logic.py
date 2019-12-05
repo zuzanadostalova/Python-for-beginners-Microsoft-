@@ -42,3 +42,4 @@ if country.lower() == "canada":
     print("So you must like hockey!")
 else:
     print("You are not from Canda")
+    
