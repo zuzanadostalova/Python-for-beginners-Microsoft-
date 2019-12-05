@@ -36,7 +36,7 @@ else:
 
 will not work if you enter first capital letter "Canada"
 
-How to correct runtime error? ->
+#How to correct runtime error? ->
 country = input("Enter the name of your home country:  ")
 if country.lower() == "canada":
     print("So you must like hockey!")
