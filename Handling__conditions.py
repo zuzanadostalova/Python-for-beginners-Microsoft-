@@ -12,8 +12,21 @@
 #     tax = 0
 #     print("Tax is: " + str(tax))
 
+
+# Careful! string comparisons are case sensitive
+
+#1 gives wrong output! It is a runtime error
+country = "CANADA"
+if country == "canada":
+    print("Oh look a Canadian")
+else:
+    print("You are not from Canada")
+    # You are not from Canada
+
+#2 gives the correct output!
 country = "CANADA"
 if country.lower() == "canada":
     print("Oh look a Canadian")
 else:
     print("you are not from Canada")
+    # Oh look a Canadian
