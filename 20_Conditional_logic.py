@@ -1,4 +1,4 @@
-# Check tax #
+# Check tax 
 price = input("How much did you pay? ")
 
 price = float(price)
