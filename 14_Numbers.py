@@ -1,3 +1,4 @@
+# Getting to know your way around calculations in Python, the use of double asterix for exponential
 pi = 3.14159
 print(pi)
 
