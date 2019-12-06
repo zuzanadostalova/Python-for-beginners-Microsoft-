@@ -43,3 +43,20 @@ person = {"first": "Christopher"}
 person["last"] = "Harrison"
 print(person)
 print(person["first"])
+
+# Dictionary - different version; I can reuse them for a list
+christopher = {}
+christopher["first"] = "Christopher"
+christopher["last"] = "Harrison"
+
+susan = {"first": "Susan", "last": "Ibach"}
+print()
+# print(christopher)
+# print(susan)
+
+people = [christopher, susan]
+people.append({"first": "Bill", "last": "Gates"})
+presenters = people[0:2]
+print(people)
+print(presenters)
+print()
