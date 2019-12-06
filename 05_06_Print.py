@@ -4,8 +4,8 @@
 # always save your file with the new code before printing
 # when you need to print, write in the terminal: python3 name.py
 
-# = Comment that is not printed, it gives no output, and it has only information value
-# string is a text inside single or double codes 
+# = Comment, text that is not printed, it gives no output, and it has only information value
+# string is a text inside single or double quotes 
 # you can '' or "" but be consistent
 print ('Hello world single quotes')
 print ("Hello world double quotes")
