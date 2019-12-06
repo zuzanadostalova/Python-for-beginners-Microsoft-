@@ -20,7 +20,7 @@
 #     tax = 0.15
 # print("Tax rate is: " + str(tax))
 
-# Mutltiple conditions by same the action -> combine them into a single one
+# Mutltiple conditions -> same action -> combine them into a single one
 # province = input("Enter your province: ")
 # if province == "Alberta" \
 #    or province == "Nunavut":
