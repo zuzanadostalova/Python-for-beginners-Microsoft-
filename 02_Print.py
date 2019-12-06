@@ -4,6 +4,8 @@
 # always save your file with the new code before printing
 # when you need to print, write in the terminal: python3 name.py
 
+# = Comment that is not printed, it gives no output, and it has only information value
+# string is a text inside single or double codes 
 # you can '' or "" but be consistent
 print ('Hello world single quotes')
 print ("Hello world double quotes")
@@ -27,7 +29,7 @@ print("Performing division")
 y = x/0
 print("Math complete")
 
-# Notes: 
-# comment in MacOs - cmd + / on marked text
-# if you do not want to print all, comment the text you do not want to print out
+
+
+
 
