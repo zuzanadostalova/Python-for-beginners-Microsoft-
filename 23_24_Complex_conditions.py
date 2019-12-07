@@ -1,12 +1,13 @@
 # 23. and 24. lesson - Complex conditions
 
-# gpa = float(input("Enter your gpa: "))
-# if gpa >= .85:
-#     lowest_grade = float(input("Enter your lowest grade: "))
-#     if lowest_grade >= .70:
-#         print("Well done!")
+# Nested if statement
+gpa = float(input("Enter your gpa: "))
+if gpa >= .85:
+    lowest_grade = float(input("Enter your lowest grade: "))
+    if lowest_grade >= .70:
+        print("Well done!")
 
-# # sometimes you can combine conditions with AND instead of nesting if  
+# Sometimes you can combine conditions with AND instead of nesting if  
 gpa = float(input("What was your Grade Point Average? "))
 lowest_grade = float(input("What was your lowest grade? "))
 # or: 
