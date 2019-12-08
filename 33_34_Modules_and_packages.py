@@ -17,16 +17,6 @@
 # from helpers import display
 # display("Not a warning")
 
-# Installing packages
-# Install an individual package; colorama changes the color of text when you print
-pip install colorama
-
-# Install from a list of packages
-pip install -r requirements. txt
-
-# Requirements.txt
-colorama
-
 # 34. lesson Virtual environment
 # Install virtual environment
 pip install virtualenv
@@ -37,13 +27,26 @@ python -m venv <folder_name>
 # OSX/Linux (bash)
 virtualenv <folder_name>
 
-# Using Virtual environment
-# cmd.exe
+# Using Virtual environment - we need to activate it
+# cmd.exe, batch file
 <folder_name>\Scripts\Activate.bat
 # Powershell
 <folder_name>\Scripts\Activate.ps1
-# bash shell
+# bash shell, . - location of your source code, from the current directory
+# that is the syntax you need
 . ./<folder_name>/Scripts/activate
 
 # OSX/Linux (bash)
 <folder_name>/bin/activate
+
+# Installing packages in VE
+
+# Installing packages
+# Install an individual package; colorama changes the color of text when you print
+pip install colorama
+
+# Install from a list of packages
+pip install -r requirements. txt
+
+# requirements.txt
+colorama
