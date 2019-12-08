@@ -18,7 +18,7 @@
 # display("Not a warning")
 
 # 34. lesson Virtual environment
-# Install virtual environment
+# Install virtual environment, globally - we are always going to need it 
 pip install virtualenv
 
 #Windows systems 
@@ -41,7 +41,7 @@ virtualenv <folder_name>
 
 # Installing packages in VE
 
-# Installing packages
+# Installing packages, locally
 # Install an individual package; colorama changes the color of text when you print
 pip install colorama
 
