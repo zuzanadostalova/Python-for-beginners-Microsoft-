@@ -1,45 +1,45 @@
-# 30. and 31. lesson
+# 31. and 32. lesson
 # We use upper case for ID etc. but for email we do not always need it
 
 # If get_initial(first_name, False) - uppercase is not forced
 # get_initial(first_name, True) - uppercase is forced
-# def get_initial(name, force_uppercase):
-#     if force_uppercase:
-#         initial = name[0:1].upper()
-#     else:
-#         initial = name[0:1]
-#     return initial
+def get_initial(name, force_uppercase):
+    if force_uppercase:
+        initial = name[0:1].upper()
+    else:
+        initial = name[0:1]
+    return initial
 
-# first_name = input("Enter your first name: ")
-# first_name_initial = get_initial(first_name, False)
+first_name = input("Enter your first name: ")
+first_name_initial = get_initial(first_name, False)
 
-# print("Your initial is: " + first_name_initial)
+print("Your initial is: " + first_name_initial)
 
 # You can specify a default value for a parameter
-# def get_initial(name, force_uppercase=True):
-#     if force_uppercase:
-#         initial = name[0:1].upper()
-#     else:
-#         initial = name[0:1]
-#     return initial
+def get_initial(name, force_uppercase=True):
+    if force_uppercase:
+        initial = name[0:1].upper()
+    else:
+        initial = name[0:1]
+    return initial
 
-# first_name = input("Enter your first name: ")
-# first_name_initial = get_initial(first_name, False)
+first_name = input("Enter your first name: ")
+first_name_initial = get_initial(first_name, False)
 
-# print("Your initial is: " + first_name_initial)
+print("Your initial is: " + first_name_initial)
 
 # You can assign the values to parametres by name when function is called
-# def get_initial(name, force_uppercase):
-#     if force_uppercase:
-#         initial = name[0:1].upper()
-#     else:
-#         initial = name[0:1]
-#     return initial
+def get_initial(name, force_uppercase):
+    if force_uppercase:
+        initial = name[0:1].upper()
+    else:
+        initial = name[0:1]
+    return initial
 
-# first_name = input("Enter your first name: ")
-# first_name_initial = get_initial(force_uppercase=True, nam   e=first_name)
+first_name = input("Enter your first name: ")
+first_name_initial = get_initial(force_uppercase=True, nam   e=first_name)
 
-# print("Your initial is: " + first_name_initial)
+print("Your initial is: " + first_name_initial)
 
 # Named notations when calling functions make the code more readable
 def error_logger(error_code, error_severity, log_to_db, \
