@@ -1,14 +1,14 @@
 # 35. and 36. lesson - VE packages
 import helpers
-helpers.display("Good", True)
+helpers.display("Sample message", True)
 
 # When we add True - This is a warning is printed out
 
 # To make display available always -> output is the same
 from helpers import display
-display("Night")
+display("Sample message")
 
-# # Setting a virtual environment
+# # Setting a virtual environment = our own module
 # # Installing a package into there - virtualenv <folder_name>
 # # https://docs.python.org/3/tutorial/venv.html
 
@@ -20,7 +20,7 @@ display("Night")
 # ? pip install --upgrade pip
 # python3 -m pip install --user --upgrade pip
 
-# # Installs colorama once
+# # Installs colorama (external package) once
 # pip install colorama
 # # Installs colorama permanently - I need to create requirements.txt
 # pip install -r requirements.txt
