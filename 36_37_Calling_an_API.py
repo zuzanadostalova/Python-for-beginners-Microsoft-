@@ -39,7 +39,7 @@ SUBSCRIPTION_KEY = "3e06b5ccceec4cd3b5e1112c5b2e5c60"
 # II. address
 # You need to update the vision_service_address to the address of
 # your Computer Vision Service
-vision_service_address = "https://pythonimageana.cognitiveservices.azure.com/"
+vision_service_address = "https://pythonimageana.cognitiveservices.azure.com/vision/v2.0/"
 
 # Add the name of the function you want to call to the address
 address = vision_service_address + "analyze"
@@ -52,7 +52,7 @@ parameters  = {'visualFeatures':'Description,Color',
 
 # IV. message_body
 # Open the image file to get a file object containing the image to analyze
-image_path = "./TestImages/PolarBear.jpg"
+image_path = "./PolarBear/PolarBear.jpg"
 image_data = open(image_path, "rb").read()
 
 # V. http_headers - using octet-stream  
