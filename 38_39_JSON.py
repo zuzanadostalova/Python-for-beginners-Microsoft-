@@ -13,7 +13,7 @@
 # 1) key - value; request the key name 
 # import JSON library
 # print(results["requestId"])
-# output:"3e06b5ccceec4cd3b5e1112c5b2e5c60"
+# output:"xxxx"
 
 # 2) key - subkeys; key and subkey name
 # print (results["color"]["dominantColorBackground"])
