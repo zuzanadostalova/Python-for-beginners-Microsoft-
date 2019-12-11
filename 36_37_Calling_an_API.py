@@ -76,13 +76,40 @@ print(json.dumps(results))
 # From a 38_39_JSON.
 # 1) key - value; request the key name 
 # import JSON library
+# print()
+# print("Request Id:")
 # print(results["requestId"])
-# output:"3e06b5ccceec4cd3b5e1112c5b2e5c60"
+# OUTPUT:"3e06b5ccceec4cd3b5e1112c5b2e5c60"
 
 # 2) key - subkeys; key and subkey name
+# print()
+# print("Dominant Color Background:")
 # print (results["color"]["dominantColorBackground"])
-# output:White
+# OUTPUT:White
 
 # 3) key - a list of values
+# print()
+# print("First tag:")
 # print(results["description"]["tags"][0])
-# output:bear
+# OUTPUT:bear
+
+# all of the values ->loop
+print()
+print("All tags:")
+for item in results["description"]["tags"]:
+    print(item)
+# OUTPUT:
+# bear
+# polar
+# animal
+# mammal
+# outdoor
+# water
+# white
+# large
+# snow
+# standing
+# eating
+# walking
+# field
+# enclosure
