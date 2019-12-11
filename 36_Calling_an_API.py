@@ -54,7 +54,7 @@ parameters  = {'visualFeatures':'Description,Color',
 image_path = "./TestImages/PolarBear.jpg"
 image_data = open(image_path, "rb").read()
 
-# V. http_header
+# V. http_headers - using octet-stream  
 # According to the documentation for the analyze image function
 # we need to specify the subscription key and the content type
 # in the HTTP header. Content-Type is application/octet-stream when you pass in a image directly
