@@ -72,3 +72,17 @@ response.raise_for_status()
 # Display the JSON results returned
 results = response.json()
 print(json.dumps(results))
+
+# From a 38_39_JSON.
+# 1) key - value; request the key name 
+# import JSON library
+# print(results["requestId"])
+# output:"3e06b5ccceec4cd3b5e1112c5b2e5c60"
+
+# 2) key - subkeys; key and subkey name
+# print (results["color"]["dominantColorBackground"])
+# output:White
+
+# 3) key - a list of values
+# print(results["description"]["tags"][0])
+# output:bear
