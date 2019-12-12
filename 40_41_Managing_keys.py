@@ -15,7 +15,11 @@
 # from environ import load_environ
 # load_environ()
 import os
-os.environ
+db_user=os.environ.get("DB_USER")
+db_password=os.environ.get("DB_PASS")
+print(db_user)
+print(db_password)
+# print(os.environ)
 # password = os.environ("PASSWORD")
 # database = os.getenv(DATABASE)
 
@@ -27,3 +31,4 @@ os.environ
 # 4) .env key value pairs we are going to use = password
 # 5) .gitignore ... .env
  
+
