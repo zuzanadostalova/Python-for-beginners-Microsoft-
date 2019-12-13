@@ -39,7 +39,8 @@ SUBSCRIPTION_KEY = "xxxxxx"
 # II. address
 # You need to update the vision_service_address to the address of
 # your Computer Vision Service
-vision_service_address = "https://xxx.cognitiveservices.azure.com/vision/v2.0/"
+vision_service_address = "https://xxx
+.cognitiveservices.azure.com/vision/v2.0/"
 
 # Add the name of the function you want to call to the address
 address = vision_service_address + "analyze"

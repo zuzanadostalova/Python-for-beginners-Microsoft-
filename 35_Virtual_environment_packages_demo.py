@@ -1,6 +1,6 @@
 # 35. and 36. lesson - VE packages
 import helpers
-helpers.display("Sample message", True)
+#helpers.display("Sample message", True)
 
 # When we add True - This is a warning is printed out
 
